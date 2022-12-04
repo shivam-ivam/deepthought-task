@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fontawesome kit link  -->
+    <script
+      src="https://kit.fontawesome.com/19aaf3699f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- css style sheet link -->
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>DEEP THOUGHT</title>
+  </head>
+  <body>
+    <div class="navbar">
+        <div class="logo"><img src="https://deepthought.education/assets/images/logo/logo.svg" alt=""></div>
+        <div class="nav-opt">
+            <i class="fa-solid fa-house"></i>
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            <i class="fa-solid fa-bell"></i>
+            <img src="https://th.bing.com/th/id/OIP.B8BaeERx9jBaFTVcaxb5TAHaEo?pid=ImgDet&rs=1" alt="" class="nav-opt-link">
+        </div>
+    </div>
+    <div class="sidebar close">
+      <div class="sidebar-heading">
+        <p>Journey Board</p>
+        <i class="fa-solid fa-bars hamberg" onclick=sidebarButton()></i>
+      </div>
+      <div class="sidebar-content">
+        <h3>1. demo task</h3>
+        <hr />
+        <li>task heading 1</li>
+        <hr />
+        <li>task heading 2</li>
+        <hr />
+        <li>task heading 3</li>
+        <hr />
+        <li>task heading 4</li>
+        <hr />
+        <li>task heading 5</li>
+        <hr />
+        <li>task heading 6</li>
+        <hr />
+        <li>task heading 7</li>
+        <hr />
+        <li>task heading 8</li>
+        <hr />
+        <li>task heading 9</li>
+        <hr />
+      </div>
+    </div>
+    <div class="subtitle">
+      <p>You Are Taking Challenges Of New Project</p>
+    </div>
+    <div class="tasks-container">
+      <div class="tasks-container-title">demo task</div>
+      <div class="asset-container">
+      <div class="task-1 task">
+        <div class="task-heading">Task Heading 1</div>
+        <div class="task-1-text"><p class="p-1"></p><br><p class="p-2"></p>
+        </div>
+
+        <i class="fa-sharp fa-solid fa-chevron-down" onclick="heightIncrease(1)"></i>
+      </div>
+      <div class="task-2 task">
+        <div class="task-heading">Task Heading 2</div>
+        <div class="asset-2-container">
+          <hr>
+          <h3>Thread A</h3>
+          <hr>
+          <div class="sub-box-con-1">
+            <div class="sub-box">
+              <h4>Sub Thread 1</h4>
+              <textarea placeholder="Enter Text Here"></textarea>
+            </div>
+            <div class="sub-box">
+              <h4>Sub interpretation 1</h4>
+              <textarea placeholder="Enter Text Here"></textarea>
+            </div>
+          </div>
+          <div class="sub-con-3">
+
+
+            <select name="thread" id="">
+              <option value="Thread 1">Thread 1</option>
+              <option value="Thread 1">Thread 2</option>
+              <option value="Thread 1">Thread 3</option>
+              <option value="Thread 1">Thread 4</option>
+            </select>
+            <select name="thread" id="">
+              <option value="Thread 1">Thread 1</option>
+              <option value="Thread 1">Thread 2</option>
+              <option value="Thread 1">Thread 3</option>
+              <option value="Thread 1">Thread 4</option>
+            </select>
+            
+          </div>
+          <button class="btn btn-1">+ Sub thread</button>
+          <div class="sub-box-con-2">
+            <div class="sub-box">
+              <h4>Summary for Thread A</h4>
+              <textarea placeholder="Enter Text Here"></textarea>
+            </div>
+          </div>
+          <select name="thread" class="right" id="">
+            <option value="Thread 1">Thread 1</option>
+            <option value="Thread 1">Thread 2</option>
+            <option value="Thread 1">Thread 3</option>
+            <option value="Thread 1">Thread 4</option>
+          </select>
+        </div>
+        <button class="btn btn-2">+ new thread</button>
+
+
+
+
+
+        <i class="fa-sharp fa-solid fa-chevron-down" onclick="heightIncrease(2)"></i>
+      </div>
+      <div class="task-3 task">
+        <div class="task-heading">Task Heading 3</div>
+<textarea placeholder="Reflect as per given guidlines"></textarea>
+<p class="p-1"></p>
+        <i class="fa-sharp fa-solid fa-chevron-down" onclick="heightIncrease(3)"></i>
+      </div>
+      <div class="task-4 task">
+        <div class="task-heading">Task Heading 4</div>
+        <iframe src="" width="99%" height="85%"></iframe>
+        <i class="fa-sharp fa-solid fa-chevron-down" onclick="heightIncrease(4)"></i>
+      </div>
+      <div class="task-5 task">
+            <div class="task-heading">Task Heading 5</div>
+            <img src="" alt="gif" width="100%" srcset="">
+            <i class="fa-sharp fa-solid fa-chevron-down" onclick="heightIncrease(5)"></i>
+        </div>
+      <div class="task-7 task">
+        <div class="task-heading">Task Heading 7</div>
+        <!--  -->
+        <div class="asset-2-container">
+          <hr>
+          <h3>Introduction</h3>
+          <hr>
+          <div class="sub-box-con-2">
+            <div class="sub-box">
+              <textarea placeholder="Enter Text Here"></textarea>
+            </div>
+          </div>
+          <hr>
+          <h3>Thread A</h3>
+          <hr>
+          <div class="sub-box-con-2">
+            <div class="sub-box">
+              <h4>Summary for Thread A</h4>
+              <textarea placeholder="Enter Text Here"></textarea>
+            </div>
+          </div>
+          <button class="btn btn-1">+ Example</button>
+          <div class="sub-box-con-2">
+            <div class="sub-box">
+              <h4>Summary for Thread A</h4>
+              <textarea placeholder="Enter Text Here"></textarea>
+            </div>
+          </div>
+          <button class="btn btn-2">+ new thread</button>
+          <hr>
+          <h3>Introduction</h3>
+          <hr>
+        </div>
+        <div class="sub-box-con-2">
+          <div class="sub-box">
+            <textarea placeholder="Enter Text Here"></textarea>
+          </div>
+        </div>
+
+        <!--  -->
+        <i class="fa-sharp fa-solid fa-chevron-down" onclick="heightIncrease(7)"></i>
+      </div>
+      <div class="task-8 task">
+        <div class="task-heading">Task Heading 8</div>
+        <audio  controls >
+            <source src="">
+        </audio>
+        <p class="p-1"></p>
+        <i class="fa-sharp fa-solid fa-chevron-down" onclick="heightIncrease(8)"></i>
+      </div>
+      <div class="task-9 task">
+        <div class="task-heading">Task Heading 9</div>
+        <iframe width="99%" height="250px" src="">
+        </iframe>
+        <i class="fa-sharp fa-solid fa-chevron-down" onclick="heightIncrease(9)"></i>
+      </div>
+    </div>
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>

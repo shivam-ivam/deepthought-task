@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #F5F5F5;
+    font-family: sans-serif;
+    height: auto;
+    display: flex;
+}
+.navbar{
+
+position: absolute;
+width: 100%;
+height: 90px;
+left: 0px;
+top: 0px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background: #F0F0F0;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logo{
+margin-left: 10px;
+}
+.nav-opt{
+    margin-right: 30px;
+}
+.nav-opt-link{
+    height: 30px;
+    width: 30px;
+    margin-left: 100px;
+    border-radius: 50%;
+}
+.fa-solid {
+    margin-inline: 15px;
+    font-size: 1.4rem;
+    color: blue;
+}
+.fa-solid:hover{
+    scale: 1.1;
+    text-shadow: 0 0 10px blue;
+}
+
+.sidebar{
+    height: 814px;
+    width: 220px;
+    position: absolute;
+    background-color: #F0F0F0;
+    left: 0px;
+    top: 223px;
+    z-index: 10;
+    border-radius: 0 20px 20px 0;
+    border: 1.5px solid rgb(197, 197, 197);
+    transition: all 1s;
+}
+.close {
+    left: -170px;
+    transition: all 1s;
+}
+.sidebar-heading{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    border-radius: 0 20px 0 0;
+    font-size: 1.3rem;
+}
+
+.sidebar-content hr{
+width: 60%;
+margin: 20px;
+}
+.sidebar-content li{
+    margin-left: 40px;
+}
+.sidebar-content h3{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.sidebar i{
+    color: white;
+}
+
+.subtitle{
+position: absolute;
+width: 1136px;
+height: 51px;
+left: 177px;
+top: 222px;
+color:white;
+background: #0029FF;
+border-radius: 10px 10px 0px 0px;
+display: flex;
+align-items: center;
+font-family: sans-serif;
+letter-spacing: 1.5px;
+    border: 1.5px solid rgb(197, 197, 197);
+
+}
+.subtitle p{
+    margin-left: 20px;
+}
+.tasks-container{
+    
+box-sizing: border-box;
+
+position: absolute;
+width: 1136px;
+/* height: 2849px; */
+height: auto;
+padding-bottom: 50px;
+left: 177px;
+top: 273px;
+
+background: #FFFFFF;
+border: 1px solid #F0F0F0;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.tasks-container-title{
+position: absolute;
+width: 165px;
+height: 42px;
+left: 485px;
+top: 44px;
+font-size: 1.5rem;
+font-weight:400;
+}
+
+.asset-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.task{
+    box-shadow: 0 0 10px black;
+    border-radius: 20px;
+    background-color: #F0F0F0;
+    position: relative;
+    width: 461px;
+    height: 340px;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.collapse{
+    height: auto;
+}
+
+.task-heading{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    border-radius: 20px 20px 0 0;
+    font-size: 1.3rem;
+}
+
+.next-btn{
+    position:absolute;
+}
+.btn{
+    background-color: blue;
+    padding: 10px 20px;
+    color: white;
+    top: 3200px;
+    left: 1207px;
+    border-radius: 10px;
+    border: none;
+}
+
+.task i{
+    color: grey;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+
+/* task 1 - interior */
+
+.task-1-text{
+    padding: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+
+/* task 2 - interior  */
+.asset-2-container{
+    margin-top: 20px;
+}
+.asset-2-container h3{
+    margin:10px 20px;
+}
+.asset-2-container .sub-box-con-1{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px ;
+}
+.sub-box {
+    background-color: rgb(207, 207, 207);
+    padding: 5px 2px 2px 2px;
+    border-radius: 20px 20px 10px 10px;
+}
+.sub-box textarea{
+    border-radius: 20px 20px 10px 10px;
+    height: 50px;
+    padding: 20px;
+}
+.sub-box-con-2{
+    margin: 20px;
+}
+.sub-box-con-2 textarea{
+    width: 375px;
+}
+.sub-box h4{
+    margin: 8px;
+}
+.sub-con-3{
+    display: flex;
+    justify-content: space-around;
+}
+.task-2 select{
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: rgb(71, 71, 71);
+}
+.btn-1{
+    margin: 20px;
+}
+.right{
+    position: relative;
+    left: 300px;
+}
+.btn-2{
+margin: 20px;
+justify-self: end;
+}
+
+/* task 7 interior  */
+
+.task-7 textarea{
+    border-radius: 20px;
+    width: 255px;
+}
+
+.task-7 .sub-box{
+    width: 300px;
+    margin-inline:auto ;
+}
+
+/* task-8 interion  */
+.task-8 audio{
+    width: 100%;
+}
+
+
+/* task-3 interior */
+.task-3 textarea{
+    border-radius: 20px;
+    margin: 10px;
+    width: 90%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid rgb(224, 224, 224);
+}
+.task-3 .p-1, .task-8 .p-1{
+    margin: 20px;
+}
+
+@media  only screen and (max-width:800px) {
+    .tasks-container{
+        width: 500px;
+    }
+    .subtitle{
+        width: 500px;
+    }
+    .tasks-container-title{
+        top: 10px;
+        left: 190px;
+    }
+}
+
